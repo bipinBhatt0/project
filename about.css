@@ -1,0 +1,15 @@
+a{
+  font-size: 30px;
+  background-color: gray;
+  border: 2px solid black;
+  text-align: center;
+}
+p{
+  color: blue;
+  background-color: pink;
+  font-size: 24px;
+}
+div{
+  text-align: center;
+  background-color:pink;
+}

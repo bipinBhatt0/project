@@ -1,0 +1,40 @@
+body{
+  background-color: gray;
+}
+header{
+font-size: 25px;
+color: purple;
+align-content: center;
+padding-left: 100px;
+background-color: pink;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+  #myID {
+  font-size: 45px;
+  text-align: center;
+  color: blue;
+  background-color: red;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid purple;
+}
+form{
+  text-align: center;
+  color: brown;
+  font-size: 22px;
+  width: 310px;
+  height: 320px;
+  border: 3px solid brown;
+  margin-left: 400px;
+  background-color: pink;
+}
+button{
+  font-size: 18px;
+}
+footer{
+  text-align: justify;
+  color: yellow;
+  font-size: 18px;
+  border: 2px solid brown;
+}

@@ -1,0 +1,47 @@
+//The jquery widget is used in this page which is caled datePicker.
+//The function of this widget is to pick is specific date to schedule an appointment.
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>contact</title>
+  <link rel="stylesheet" href="contact.css">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  } );
+  </script>
+  </head>
+  <body>
+    <div>
+    <h1>Fresh food Restaurant</h1>
+    <a href="index.html">Login Page</a>
+    <a href="home.html">Home page</a>
+    <a href="about.html">About Us</a>
+    <a href="https://www.persisrtp.com/menus/">Menu</a>
+    <a href="contact.html">Contact Us</a>
+    <a href="review.html">Rate Us</a>
+    </div>
+    <h2>Contact Information:</h2>
+    <p>If you have any questions please feel free to contact us at 9191234567.</p>
+    <p>Also you can send a email at: <a href="mailto:abc@gmail.com?subject=feedback">abc@gmail.com</a> </p>
+
+    <form action="appointment.html" method="post">
+
+    <p>If you want to visit our place and want to explore our food items, please schedule an appointment. <br>
+<br>
+
+Please choose a date of your appointment: </p><input type="text" id="datepicker">
+<button type="submit"><b>Schedule Appointment</b></button>
+</form>
+    <br> <br>
+
+    <a href="https://validator.w3.org/check?uri=referer"
+    referrerpolicy="unsafe-url"> Validate HTML </a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer"
+    referrerpolicy="unsafe-url"> Validate CSS </a>
+  </body>
+</html>

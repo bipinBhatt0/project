@@ -1,0 +1,52 @@
+a{
+  font-size: 30px;
+  background-color: gray;
+  border: 2px solid black;
+  text-align: center;
+}
+
+div{
+  text-align: center;
+  background-color:pink;
+}
+img{
+  margin-top: 20px;
+  height:400px;
+  width: 400px;
+}
+nav{
+color: purple;
+font-weight: bolder;
+padding-left: 500px;
+font-size: 22px;
+}
+p{
+  color: purple;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }

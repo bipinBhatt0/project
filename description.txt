@@ -1,0 +1,3 @@
+Hello,
+Welcome to this page:
+This page is the description of the restaurant.
